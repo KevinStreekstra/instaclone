@@ -1,0 +1,78 @@
+@media screen and (min-width: 800px) {
+
+  @font-face {
+    font-family: 'Billabong';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Billabong'), url('Billabong.woff') format('woff');
+  }
+
+
+  html {
+    background-color: lightgrey;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Billabong';
+    font-size: 50px;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Billabong';
+    font-size: 50px;
+
+  }
+
+  /*hier begint de nav balk*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fafafa;
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+    top: 20%;
+    width: 100%;
+    margin-top: 2.4%;
+  }
+
+  li {
+    float: left;
+    margin-left: 17.5%;
+  }
+
+  #invoer {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  /*hier eindigt de nav balk*/
+  #post {
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+
+  }
+}
